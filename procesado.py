@@ -5,16 +5,11 @@
 #
 # Perpetrados por: Oscar Corres y Viloria
 
-def sumaFactura(*args: Union[List, modelo.cliente]):
+def sumaFactura(listaClientes = []):
     totalFacturacion = 0
-    for arg in args:
-        if isinstance(arg, modelo.cliente):
-            totalFacturacion += arg.facturacion
-        else:
-            for x in arg:
-                totalFacturacion += sumaFactura(x)
+    for cliente in listaClientes:
+            totalFacturacion += cliente.facturacion
     return totalFacturacion
 
-
-
-def mediaFactura():
+def mediaFactura(listaClientes = []):
+    return sumaFactura(listaClientes)/len(listaClientes)
