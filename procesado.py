@@ -8,7 +8,7 @@
 def sumaFactura(listaClientes = []):
     totalFacturacion = 0
     for cliente in listaClientes:
-            totalFacturacion += cliente.facturacion
+            totalFacturacion += cliente.facturacion_anual
     return totalFacturacion
 
 def mediaFactura(listaClientes = []):
