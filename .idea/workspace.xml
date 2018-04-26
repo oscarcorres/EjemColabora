@@ -34,7 +34,7 @@
       </branch-storage>
     </favorite-branches>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1188" />
@@ -85,7 +85,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="987" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="979" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24474393" />
       <window_info anchor="bottom" id="TODO" order="6" />
