@@ -14,10 +14,10 @@ class cliente:
 def crea(n):
 
 
-    cliente1 = cliente("pepe", "direccion", "telf", "email", "facturacion_anual")
-    cliente2 = cliente("pepe", "direccion", "telf", "email", "facturacion_anual")
-    cliente3 = cliente("pepe", "direccion", "telf", "email", "facturacion_anual")
-    cliente4 = cliente("pepe", "direccion", "telf", "email", "facturacion_anual")
+    cliente1 = cliente("pepe", "direccion", "telf", "email", 3000)
+    cliente2 = cliente("pepe", "direccion", "telf", "email", 3000)
+    cliente3 = cliente("pepe", "direccion", "telf", "email", 3000)
+    cliente4 = cliente("pepe", "direccion", "telf", "email", 3000)
     listaClientes = [cliente1, cliente2, cliente3, cliente4]
 
     return listaClientes
